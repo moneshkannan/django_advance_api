@@ -1,4 +1,4 @@
-FROM python:3.11.1-alphine
+FROM python:3.11.1-alpine
 MAINTAINER Rio software Inc
 
 ENV PYTHONUNBUFFERED 1
