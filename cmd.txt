@@ -3,3 +3,9 @@ sudo docker-compose run app sh -c "django-admin startproject app ."
 
 # for testing
 sudo docker-compose run app sh -c "python manage.py test"
+
+# for testing with flake8
+sudo docker-compose run app sh -c "python manage.py test && flake8"
+
+# docker-build
+sudo docker-compose build
