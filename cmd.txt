@@ -9,3 +9,6 @@ sudo docker-compose run app sh -c "python manage.py test && flake8"
 
 # docker-build
 sudo docker-compose build
+
+# make migrations core app
+sudo docker-compose run app sh -c "python manage.py makemigrations core"
