@@ -1,2 +1,5 @@
 # after configured docker-compose.yml run below cmd
 sudo docker-compose run app sh -c "django-admin startproject app ."
+
+# for testing
+sudo docker-compose run app sh -c "python manage.py test"
